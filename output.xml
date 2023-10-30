@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.8.10 on linux)" generated="20230909 18:16:53.604" rpa="false" schemaversion="4">
+<suite id="s1" name="Tests" source="/home/rps/my_project/Tests_in_Robot_Framework/Tests">
+<suite id="s1-s1" name="Execrice1" source="/home/rps/my_project/Tests_in_Robot_Framework/Tests/Execrice1.robot">
+<test id="s1-s1-t1" name="Test1" line="4">
+<kw name="Log" library="BuiltIn">
+<arg>This is my first test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230909 18:16:53.652" level="INFO">This is my first test case</msg>
+<status status="PASS" starttime="20230909 18:16:53.651" endtime="20230909 18:16:53.652"/>
+</kw>
+<status status="PASS" starttime="20230909 18:16:53.650" endtime="20230909 18:16:53.652"/>
+</test>
+<status status="PASS" starttime="20230909 18:16:53.637" endtime="20230909 18:16:53.653"/>
+</suite>
+<suite id="s1-s2" name="Execrice2" source="/home/rps/my_project/Tests_in_Robot_Framework/Tests/Execrice2.robot">
+<test id="s1-s2-t1" name="Test2" line="4">
+<kw name="List Directory" library="OperatingSystem">
+<arg>/tmp</arg>
+<doc>Returns and logs items in a directory, optionally filtered with ``pattern``.</doc>
+<msg timestamp="20230909 18:16:53.659" level="INFO" html="true">Listing contents of directory '&lt;a href="file:///tmp"&gt;/tmp&lt;/a&gt;'.</msg>
+<msg timestamp="20230909 18:16:53.660" level="INFO">50 items:
+.ICE-unix
+.Test-unix
+.X1024-lock
+.X1025-lock
+.X11-unix
+.XIM-unix
+.font-unix
+.java_pid46973
+.org.chromium.Chromium.G2upS9
+.org.chromium.Chromium.KvDw9E
+.org.chromium.Chromium.aSyIqa
+.org.chromium.Chromium.eb0YHF
+.org.chromium.Chromium.uHvnBE
+BuiltIn_7576c980db34a595
+Collections_d0d884dd50cfab94
+DateTime_d81e3114f6ae6854
+Dialogs_26d4e9a120922c05
+Easter_b52f60ef9041b287
+O_3d342ff9ddc31947
+Op_4a390866010f1295
+Ope_63601cf8c3d85e68
+Oper_bb1bd34cc4e792ba
+Operat_e7080c3c96e515dd
+Operatin_0e98bb7b6f93253c
+OperatingS_058c9fa7fff9484c
+OperatingSystem_a0ea137d4f26b609
+Process_d097e49030b90c82
+Screenshot_b7cc34b8698bb2b7
+String_a0914580a212f7ed
+Telnet_5e33234d86769627
+Temp-d435c94c-f647-4425-b37e-f3fa664fe2ae
+VMwareDnD
+XML_63d510a160d712ac
+byteBuddyAgent124103801483843370.jar
+config-err-gAK8Sr
+gen_builtins_17088ce3f159a310
+gen_libspec_17088ce3f159a310
+hsperfdata_rps
+snap-private-tmp
+ssh-jI7Vs6bf6Ss5
+systemd-private-a3a787220b0d49898d87172c78910771-ModemManager.service-jmz8Og
+systemd-private-a3a787220b0d49898d87172c78910771-colord.service-ChYrrf
+systemd-private-a3a787220b0d49898d87172c78910771-switcheroo-control.service-c8wKbi
+systemd-private-a3a787220b0d49898d87172c78910771-systemd-logind.service-Q4Sz9f
+systemd-private-a3a787220b0d49898d87172c78910771-systemd-resolved.service-gN6UQh
+systemd-private-a3a787220b0d49898d87172c78910771-systemd-timesyncd.service-VowDOi
+systemd-private-a3a787220b0d49898d87172c78910771-upower.service-Ss6SBf
+tracker-extract-files.1000
+tracker-extract-files.125
+vmware-root_754-2965513717</msg>
+<status status="PASS" starttime="20230909 18:16:53.659" endtime="20230909 18:16:53.660"/>
+</kw>
+<status status="PASS" starttime="20230909 18:16:53.658" endtime="20230909 18:16:53.660"/>
+</test>
+<status status="PASS" starttime="20230909 18:16:53.653" endtime="20230909 18:16:53.661"/>
+</suite>
+<status status="PASS" starttime="20230909 18:16:53.605" endtime="20230909 18:16:53.662"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Execrice1">Tests.Execrice1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Execrice2">Tests.Execrice2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
